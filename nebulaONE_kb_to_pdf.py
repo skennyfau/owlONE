@@ -1,8 +1,8 @@
 """
 NebulaONE Knowledge Base Exporter
 
-This script retrieves all accessible Knowledge Base articles from the cloudforce/ServiceNow
-instance using a working curl request (prompting the user for credentials),
+This script retrieves all accessible Knowledge Base articles from the cloudforce.service-now.com
+site using a working curl request (prompting the user for credentials),
 combines the returned article content into a single HTML document, and converts
 that document into a single consolidated PDF using Playwright/Chromium.
 
